@@ -1,17 +1,19 @@
 {
-	"name": "theme-coraline",
-	"displayName": "Coraline Theme",
-	"description": "VSCode theme based on Tomorrow Night",
-	"version": "0.1.0",
-	"publisher": "willyelm",
-	"engines": { "vscode": "*" },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Coraline",
-				"uiTheme": "vs-dark",
-				"path": "./themes/coraline-blue-theme.json"
-			}
-		]
-	}
+    "name": "theme-coraline",
+    "displayName": "Coraline Theme",
+    "description": "VSCode theme based on Tomorrow Night",
+    "version": "0.2.0",
+    "publisher": "willyelm",
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Coraline",
+                "uiTheme": "vs-dark",
+                "path": "./themes/coraline-blue.json"
+            }
+        ]
+    }
 }
