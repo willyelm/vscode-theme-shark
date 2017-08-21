@@ -1,0 +1,15 @@
+{
+	"name": "theme-coraline",
+	"version": "0.1.0",
+	"publisher": "willyelm",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Coraline",
+				"uiTheme": "vs-dark",
+				"path": "./themes/coraline-blue-theme.json"
+			}
+		]
+	}
+}
