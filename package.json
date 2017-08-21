@@ -1,5 +1,7 @@
 {
 	"name": "theme-coraline",
+	"displayName": "Coraline Theme",
+	"description": "VSCode theme based on Tomorrow Night",
 	"version": "0.1.0",
 	"publisher": "willyelm",
 	"engines": { "vscode": "*" },
