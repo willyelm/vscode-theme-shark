@@ -1,18 +1,41 @@
 {
-    "name": "theme-coraline",
-    "displayName": "Coraline Theme",
-    "description": "VSCode theme based on Tomorrow Night",
-    "version": "0.3.0",
+    "name": "theme-shark",
+    "displayName": "Shark Theme",
+    "description": "Shark a VSCode theme",
+    "version": "0.10.0",
     "publisher": "willyelm",
+    "repository": "",
     "engines": {
         "vscode": "*"
     },
+    "categories": [
+        "Themes"
+    ],
     "contributes": {
+        "settings": [
+            {
+                "id": "shark",
+                "label": "Shark",
+                "path": "./settings/settings.json"
+            }
+        ],
         "themes": [
             {
-                "label": "Coraline",
+                "label": "Dark (Shark)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/coraline-blue.json"
+                "path": "./themes/dark-theme.json"
+            },
+            {
+              "label": "Light (Shark)",
+              "uiTheme": "vs-dark",
+              "path": "./themes/light-theme.json"
+          }
+        ],
+        "iconThemes": [
+            {
+                "id": "shark",
+                "label": "Shark",
+                "path": "./fileicons/fileicon-theme.json"
             }
         ]
     }
