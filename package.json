@@ -4,7 +4,7 @@
     "description": "Shark a VSCode theme",
     "version": "0.10.0",
     "publisher": "willyelm",
-    "repository": "",
+    "repository": "https://github.com/willyelm/vscode-theme-shark.git",
     "engines": {
         "vscode": "*"
     },

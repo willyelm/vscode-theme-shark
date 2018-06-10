@@ -35,41 +35,19 @@
         "editorGroupHeader.tabsBackground": "#2f3036",
         "editorGroupHeader.tabsBorder": "#212225",
 
-        "editorOverviewRuler.modifiedForeground": "#7dd69b",
-        "editorOverviewRuler.addedForeground": "#7fcce4",
+        "editorOverviewRuler.modifiedForeground": "#a7e7b2",
+        "editorOverviewRuler.addedForeground": "#9ce7fd",
         "editorOverviewRuler.deletedForeground": "#fd6c7f",
         "editorOverviewRuler.errorForeground": "#d43f3f",
-        "editorOverviewRuler.warningForeground": "#ffc77e",
-        "editorOverviewRuler.infoForeground": "#65c5c0",
-        "editorOverviewRuler.bracketMatchForeground": "#5686ce",
+        "editorOverviewRuler.warningForeground": "#FFEEAD",
+        "editorOverviewRuler.infoForeground": "#94b7fa",
+        "editorOverviewRuler.bracketMatchForeground": "#94b7fa",
 
-        "gitDecoration.modifiedResourceForeground": "#7dd69b",
+        "gitDecoration.modifiedResourceForeground": "#a7e7b2",
         "gitDecoration.deletedResourceForeground": "#fd6c7f",
-        "gitDecoration.untrackedResourceForeground": "#7fcce4",
-        "gitDecoration.ignoredResourceForeground": "#888c99",
-        "gitDecoration.conflictingResourceForeground": "#f387fd",
-
-        "tab.inactiveBackground": "#2f3036",
-        "tab.border": "#212225",
-
-        "list.dropBackground": "#383B3D",
-
-        "activityBar.border": "#2e2925",
-        "activityBar.background": "#2f3036",
-        "activityBarBadge.background": "#3f71c0",
-
-        "statusBar.background": "#2f3036",
-        "statusBar.border": "#212225",
-        "statusBar.debuggingBackground": "#3f71c0",
-        "statusBar.noFolderForeground": "#686868",
-
-        "sideBar.background": "#35373f",
-        "sideBar.border": "#212225",
-        "sideBarTitle.foreground": "#9294a0",
-        "sideBarSectionHeader.background": "#34363F",
-
-        "titleBar.activeBackground": "#2f3036",
-        "titleBar.border": "#212225",
+        "gitDecoration.untrackedResourceForeground": "#9ce7fd",
+        "gitDecoration.ignoredResourceForeground": "#666775",
+        "gitDecoration.conflictingResourceForeground": "#ff92e4",
 
         "terminal.foreground": "#F9FAFF",
         "terminal.ansiBrightBlack": "#212225",
@@ -89,6 +67,29 @@
         "terminal.ansiWhite": "#e9ebf5",
         "terminal.ansiYellow": "#f3dd83",
         "terminal.ansiBlue": "#6c98e9",
+
+        "tab.inactiveBackground": "#2f3036",
+        "tab.border": "#212225",
+
+        "list.dropBackground": "#383B3D",
+        "list.highlightForeground": "#5686ce",
+
+        "activityBar.border": "#2e2925",
+        "activityBar.background": "#2f3036",
+        "activityBarBadge.background": "#3f71c0",
+
+        "statusBar.background": "#2f3036",
+        "statusBar.border": "#212225",
+        "statusBar.debuggingBackground": "#3f71c0",
+        "statusBar.noFolderForeground": "#686868",
+
+        "sideBar.background": "#35373f",
+        "sideBar.border": "#212225",
+        "sideBarTitle.foreground": "#9294a0",
+        "sideBarSectionHeader.background": "#34363F",
+
+        "titleBar.activeBackground": "#2f3036",
+        "titleBar.border": "#212225",
         
         "diffEditor.insertedTextBackground": "#79ffdd6e",
         "diffEditor.removedTextBackground": "#ff7c9d85"
