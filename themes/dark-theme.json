@@ -181,9 +181,6 @@
             "foreground": "#D2DDE2"
         }
     }, {
-      "name": "Unessesary",
-      "scope": ""
-    },{
         "name": "Diff foreground",
         "scope": "markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file",
         "settings": {
