@@ -26,6 +26,12 @@
     },
     "Shark.Markdown": {
       "iconPath": "./images/56/Markdown.svg"
+    },
+    "Shark.Sass": {
+      "iconPath": "./images/56/Sass.svg"
+    },
+    "Shark.HTML": {
+      "iconPath": "./images/56/HTML.svg"
     }
   },
 
@@ -40,7 +46,10 @@
     "ts": "Shark.Typescript",
     "js": "Shark.Javascript",
     "json": "Shark.JSON",
-    "md": "Shark.Markdown"
+    "md": "Shark.Markdown",
+    "scss": "Shark.Sass",
+    "sass": "Shark.Sass",
+    "html": "Shark.HTML"
     // icons by file extension
   },
   "fileNames": {
