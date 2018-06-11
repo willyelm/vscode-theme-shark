@@ -1,42 +1,39 @@
 {
-    "name": "theme-shark",
-    "displayName": "Shark Theme",
-    "description": "Shark a VSCode theme",
-    "version": "0.10.1",
-    "publisher": "willyelm",
-    "repository": "https://github.com/willyelm/vscode-theme-shark.git",
-    "engines": {
-        "vscode": "*"
-    },
-    "categories": [
-        "Themes"
+  "name": "theme-shark",
+  "displayName": "Shark Theme",
+  "description": "Shark a VSCode theme",
+  "version": "0.10.3",
+  "publisher": "willyelm",
+  "license": "MIT",
+  "author": "Williams Medina <williams.medinaa@gmail.com>",
+  "repository": "https://github.com/willyelm/vscode-theme-shark.git",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "settings": [
+      {
+        "id": "shark",
+        "label": "Shark",
+        "path": "./settings/settings.json"
+      }
     ],
-    "contributes": {
-        "settings": [
-            {
-                "id": "shark",
-                "label": "Shark",
-                "path": "./settings/settings.json"
-            }
-        ],
-        "themes": [
-            {
-                "label": "Dark (Shark)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark-theme.json"
-            },
-            {
-              "label": "Light (Shark)",
-              "uiTheme": "vs-dark",
-              "path": "./themes/light-theme.json"
-          }
-        ],
-        "iconThemes": [
-            {
-                "id": "shark",
-                "label": "Shark",
-                "path": "./fileicons/fileicon-theme.json"
-            }
-        ]
-    }
+    "themes": [
+      {
+        "label": "Dark (Shark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "shark",
+        "label": "File Icons (Shark)",
+        "path": "./fileicons/fileicon-theme.json"
+      }
+    ]
+  }
 }

@@ -2,6 +2,7 @@
     "$schema": "vscode://schemas/color-theme",
     "name": "codeOS",
     "colors": {
+   
         "focusBorder": "#404040",
         "foreground": "#F9FAFF",
         "selection.background": "#3f71c0",
@@ -9,6 +10,11 @@
 
         "button.background": "#6A6B76",
         "button.foreground": "#F9FAFF",
+
+        "input.background": "#26272b",
+        "input.border": "#26272b",
+        "input.foreground": "#F9FAFF",
+        "input.placeholderForeground": "#666775",
 
         "panel.background": "#252529",
         "panel.border": "#1f2024",
@@ -72,7 +78,7 @@
         "tab.border": "#212225",
 
         "list.dropBackground": "#383B3D",
-        "list.highlightForeground": "#5686ce",
+        "list.activeSelectionBackground": "#5686ce",
 
         "activityBar.border": "#2e2925",
         "activityBar.background": "#2f3036",

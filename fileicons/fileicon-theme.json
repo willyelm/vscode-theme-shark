@@ -1,0 +1,71 @@
+{
+  "iconDefinitions": {
+    "Shark.Root.Folder": {
+      "iconPath": "./images/56/Folder.svg"
+    },
+    "Shark.Root.Folder.Open": {
+      "iconPath": "./images/56/Folder.svg"
+    },
+    "Shark.Folder": {
+      "iconPath": "./images/56/Folder.svg"
+    },
+    "Shark.Folder.Open": {
+      "iconPath": "./images/56/Folder.svg"
+    },
+    "Shark.File": {
+      "iconPath": "./images/56/File.svg"
+    },
+    "Shark.Typescript": {
+      "iconPath": "./images/56/Typescript.svg"
+    },
+    "Shark.Javascript": {
+      "iconPath": "./images/56/Javascript.svg"
+    },
+    "Shark.JSON": {
+      "iconPath": "./images/56/JSON.svg"
+    },
+    "Shark.Markdown": {
+      "iconPath": "./images/56/Markdown.svg"
+    }
+  },
+
+  "folderExpanded": "Shark.Folder.Open",
+  "folder": "Shark.Folder",
+  "file": "Shark.File",
+
+  "rootFolderExpanded": "Shark.Root.Folder.Open",
+  "rootFolder": "Shark.Root.Folder",
+  
+  "fileExtensions": {
+    "ts": "Shark.Typescript",
+    "js": "Shark.Javascript",
+    "json": "Shark.JSON",
+    "md": "Shark.Markdown"
+    // icons by file extension
+  },
+  "fileNames": {
+    // icons by file name
+  },
+  "languageIds": {
+    // icons by language id
+  }
+  // "light": {
+  //   "folderExpanded": "_folder_open_light",
+  //   "folder": "_folder_light",
+  //   "rootFolderExpanded": "_root_folder_open",
+  //   "rootFolder": "_root_folder",
+  //   "file": "_file_light",
+  //   "fileExtensions": {
+  //     // icons by file extension
+  //   },
+  //   "fileNames": {
+  //     // icons by file name
+  //   },
+  //   "languageIds": {
+  //     // icons by language id
+  //   }
+  // },
+  // "highContrast": {
+  //   // overrides for high contrast
+  // }
+}
