@@ -1,2 +1,3 @@
 node_modules
-/fileicons
+/fileicons/*
+.DS_Store
