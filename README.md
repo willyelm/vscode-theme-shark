@@ -2,10 +2,14 @@
 
 A Simple VSCode Theme
 
-## UI Theme
-
-![preview](https://raw.githubusercontent.com/willyelm/vscode-theme-shark/master/preview.png)
-
 ## Syntax Theme
 
+![syntax-preview](https://raw.githubusercontent.com/willyelm/vscode-theme-shark/master/syntax-preview.png)
+
 ## File Icons
+
+![icons-preview](https://raw.githubusercontent.com/willyelm/vscode-theme-shark/master/icons-preview.png)
+
+## UI Theme
+
+![ui-preview](https://raw.githubusercontent.com/willyelm/vscode-theme-shark/master/ui-preview.png)
