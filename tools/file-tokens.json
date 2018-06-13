@@ -6,14 +6,33 @@
     "fileNames": ""
   },
   {
+    "definition": "Swift",
+    "fileExtensions": "swift",
+    "languageIds": "swift"
+  },
+  {
     "definition": "Javascript",
     "fileExtensions": "js",
     "languageIds": "js"
+  },{
+    "definition": "Java",
+    "fileExtensions": "java",
+    "languageIds": "java"
   },
   {
     "definition": "HTML",
     "fileExtensions": "html",
     "languageIds": "html"
+  },
+  {
+    "definition": "Image",
+    "fileExtensions": ["jpg", "jpeg", "png", "gif", "svg"],
+    "languageIds": ["jpg", "jpeg", "png", "gif", "svg"]
+  },
+  {
+    "definition": "CSS",
+    "fileExtensions": "css",
+    "languageIds": "css"
   },
   {
     "definition": "Sass",
@@ -29,5 +48,28 @@
     "definition": "Markdown",
     "fileExtensions": "md",
     "languageIds": "md"
+  },
+  {
+    "definition": "Ruby",
+    "fileExtensions": "rb",
+    "languageIds": "rb"
+  },
+  {
+    "definition": "Rust",
+    "fileExtensions": ["rs", "rlib"],
+    "languageIds": ["rs", "rlib"]
+  },
+  {
+    "definition": "PHP",
+    "fileExtensions": "php",
+    "languageIds": "php"
+  },
+  {
+    "definition": "NPM",
+    "fileNames": [ "package.json", "package-lock.json" ]
+  },
+  {
+    "definition": "Yarn",
+    "fileNames": "yarn.lock"
   }
 ]
