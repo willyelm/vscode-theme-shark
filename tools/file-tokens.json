@@ -47,12 +47,12 @@
   {
     "definition": "Markdown",
     "fileExtensions": "md",
-    "languageIds": "md"
+    "languageIds": "markdown"
   },
   {
     "definition": "Ruby",
     "fileExtensions": "rb",
-    "languageIds": "rb"
+    "languageIds": "ruby"
   },
   {
     "definition": "Rust",
@@ -71,5 +71,30 @@
   {
     "definition": "Yarn",
     "fileNames": "yarn.lock"
+  },
+  {
+    "definition": "Docker",
+    "fileNames": ["Dockerfile", "dockerfile", "docker-compose.yml"],
+    "languageIds": "dockerfile"
+  },
+  {
+    "definition": "Bash",
+    "fileExtensions": "sh",
+    "languageIds": "shellscript"
+  },
+  {
+    "definition": "C",
+    "fileExtensions": "c",
+    "languageIds": "c"
+  },
+  {
+    "definition": "CPP",
+    "fileExtensions": "cpp",
+    "languageIds": "cpp"
+  },
+  {
+    "definition": "CSharp",
+    "fileExtensions": "cs",
+    "languageIds": "csharp"
   }
 ]

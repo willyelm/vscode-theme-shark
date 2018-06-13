@@ -149,8 +149,10 @@ async function buildFileIcons (
         definitions.forEach((item: string) => {
           if (!token[item]) return;
           const items = Array.isArray(token[item]) ? token[item] : [token[item]];
-          items.forEach((definition: string) => {
+          items.forEach(async (definition: string) => {
             fileIcons[item][definition] = iconTokenName;
+            const fileTypePath = path.resolve(`fileicons/files/${token.definition}.${definition}`);
+            await writeFile(fileTypePath, '');
           });
         });
         resolve(fileSVG);
