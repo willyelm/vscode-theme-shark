@@ -1,80 +1,25 @@
 {
   "iconDefinitions": {
-    "Shark.Root.Folder": {
-      "iconPath": "./images/56/Folder.svg"
-    },
-    "Shark.Root.Folder.Open": {
-      "iconPath": "./images/56/Folder.svg"
-    },
     "Shark.Folder": {
-      "iconPath": "./images/56/Folder.svg"
-    },
-    "Shark.Folder.Open": {
-      "iconPath": "./images/56/Folder.svg"
+      "iconPath": "./images/24/Folder.svg"
     },
     "Shark.File": {
-      "iconPath": "./images/56/File.svg"
+      "iconPath": "./images/24/File.svg"
     },
-    "Shark.Typescript": {
-      "iconPath": "./images/56/Typescript.svg"
-    },
-    "Shark.Javascript": {
-      "iconPath": "./images/56/Javascript.svg"
-    },
-    "Shark.JSON": {
-      "iconPath": "./images/56/JSON.svg"
-    },
-    "Shark.Markdown": {
-      "iconPath": "./images/56/Markdown.svg"
-    },
-    "Shark.Sass": {
-      "iconPath": "./images/56/Sass.svg"
-    },
-    "Shark.HTML": {
-      "iconPath": "./images/56/HTML.svg"
+    "Shark.File.Typescript": {
+      "iconPath": "./images/24/File-Typescript.svg"
     }
   },
-
-  "folderExpanded": "Shark.Folder.Open",
+  "rootFolder": "Shark.Folder",
+  "rootFolderExpanded": "Shark.Folder",
   "folder": "Shark.Folder",
+  "folderExpanded": "Shark.Folder",
   "file": "Shark.File",
-
-  "rootFolderExpanded": "Shark.Root.Folder.Open",
-  "rootFolder": "Shark.Root.Folder",
-  
   "fileExtensions": {
-    "ts": "Shark.Typescript",
-    "js": "Shark.Javascript",
-    "json": "Shark.JSON",
-    "md": "Shark.Markdown",
-    "scss": "Shark.Sass",
-    "sass": "Shark.Sass",
-    "html": "Shark.HTML"
-    // icons by file extension
+    "ts": "Shark.File.Typescript"
   },
-  "fileNames": {
-    // icons by file name
-  },
+  "fileNames": {},
   "languageIds": {
-    // icons by language id
+    "ts": "Shark.File.Typescript"
   }
-  // "light": {
-  //   "folderExpanded": "_folder_open_light",
-  //   "folder": "_folder_light",
-  //   "rootFolderExpanded": "_root_folder_open",
-  //   "rootFolder": "_root_folder",
-  //   "file": "_file_light",
-  //   "fileExtensions": {
-  //     // icons by file extension
-  //   },
-  //   "fileNames": {
-  //     // icons by file name
-  //   },
-  //   "languageIds": {
-  //     // icons by language id
-  //   }
-  // },
-  // "highContrast": {
-  //   // overrides for high contrast
-  // }
 }

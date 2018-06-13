@@ -1,0 +1,21 @@
+<svg id="Shark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="12" y1="22.39" x2="12" y2="1.61" gradientUnits="userSpaceOnUse">
+      <stop offset="0.46" stop-color="#eef2f6" />
+      <stop offset="0.76" stop-color="#fff" />
+    </linearGradient>
+  </defs>
+  <title>File</title>
+  <g id="File">
+    <polygon points="4.37 22.39 4.37 1.61 13.98 1.61 16.78 4.41 19.63 7.13 19.63 22.39 4.37 22.39" style="fill:url(#linear-gradient)"
+    />
+    <path d="M13.78,2.11l2.64,2.65,2.71,2.58V21.89H4.87V2.11h8.91m.41-1H3.87V22.89H20.13v-16l-.31-.29L17.11,4,14.48,1.4l-.29-.29Z"
+      style="fill:#6f777f" />
+    <path d="M14.18,7.85a.9.9,0,0,1-.9-.9V2.11l.85-.36L19.49,7l-.35.85Z" style="fill:#fff" />
+    <path d="M13.78,2.11l2.68,2.62,2.68,2.62h-5a.4.4,0,0,1-.4-.4V2.11m.69-.72-1.69.72V7a1.4,1.4,0,0,0,1.4,1.4h5l.7-1.71L17.16,4,14.47,1.39Z"
+      style="fill:#6f777f" />
+    <path d="M19.12,21.88H4.88V18.75a6.7,6.7,0,0,0,1.83,1.73A8.38,8.38,0,0,0,15.87,20a8.47,8.47,0,0,0,3.25-6.28Z" style="fill:#e6ebef"
+    />
+    <rect x="6.02" y="10.16" width="11.91" height="10.71" style="fill:none" />
+  </g>
+</svg>

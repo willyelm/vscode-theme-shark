@@ -1,0 +1,18 @@
+<svg id="Shark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <symbol id="Folder" data-name="Folder" viewBox="0 0 52.66 40.68">
+      <path d="M.5,40.18V1.93A1.44,1.44,0,0,1,2,.5H18A1.49,1.49,0,0,1,19.15,1l0,0L22.8,7.57H50.65a1.5,1.5,0,0,1,1.5,1.5V40.18Z"
+        style="fill:#96dbff" />
+      <path d="M18,1a1,1,0,0,1,.74.34L22.5,8.07H50.65a1,1,0,0,1,1,1V39.68H1V1.93A1,1,0,0,1,2,1H18m0-1H2A2,2,0,0,0,0,1.93V40.68H52.65V9.07a2,2,0,0,0-2-2H23.09L19.64.85,19.59.76,19.53.69A2,2,0,0,0,18,0Z"
+        style="fill:#396d7f" />
+      <path d="M.5,35.68V13.54A1.5,1.5,0,0,1,2,12H50.65a1.5,1.5,0,0,1,1.5,1.5V35.68Z" style="fill:#84d4f8" />
+      <path d="M50.65,12.54a1,1,0,0,1,1,1V35.18H1V13.54a1,1,0,0,1,1-1H50.65m0-1H2a2,2,0,0,0-2,2V36.18H52.65V13.54a2,2,0,0,0-2-2Z"
+        style="fill:#396d7f" />
+      <path d="M51.6,35.12H1V27.88a11.92,11.92,0,0,0,3.41,5c2.9,2.46,14.56,1.9,22.61,1.86,10.2-.05,15.39.12,19-2.47s4.83-4.57,5.53-10.84Z"
+        style="fill:#7acdea" />
+    </symbol>
+  </defs>
+  <title>Folder</title>
+  <use id="Folder-3" data-name="Folder" width="52.65" height="40.68" transform="translate(1.75 4.08) scale(0.39)"
+    xlink:href="#Folder" />
+</svg>

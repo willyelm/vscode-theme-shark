@@ -2,7 +2,7 @@
   "name": "theme-shark",
   "displayName": "Shark Theme",
   "description": "Shark a VSCode theme",
-  "version": "0.10.6",
+  "version": "0.10.7",
   "publisher": "willyelm",
   "license": "MIT",
   "author": "Williams Medina <williams.medinaa@gmail.com>",
@@ -35,5 +35,14 @@
         "path": "./fileicons/fileicon-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "ts-node ./tools/build"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.2",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.1",
+    "xml2js": "^0.4.19"
   }
 }
