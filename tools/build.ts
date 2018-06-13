@@ -83,6 +83,9 @@ async function buildFileIcons (
             g: fileIconSVG.svg.g
           }]
         });
+        if (fileIconSVG.svg.defs && fileIconSVG.svg.defs[0]) {
+          merge(fileTokenSVG.svg.defs[0], fileIconSVG.svg.defs[0]);
+        }
         // Place Symbol
         Object.assign(fileTokenSVG.svg, {
           use: [{
@@ -104,15 +107,14 @@ async function buildFileIcons (
         fileIcons.iconDefinitions[iconTokenName] = {
           iconPath: `./images/${resolution}/File-${token.definition}.svg`
         };
-        if (token.fileExtension) {
-          fileIcons.fileExtensions[token.fileExtension] = iconTokenName;
-        }
-        if (token.languageId) {
-          fileIcons.languageIds[token.languageId] = iconTokenName;
-        }
-        if (token.fileName) {
-          fileIcons.fileNames[token.fileName] = iconTokenName;
-        }
+        const definitions = ['fileExtensions', 'languageIds', 'fileNames'];
+        definitions.forEach((item: string) => {
+          if (!token[item]) return;
+          const items = Array.isArray(token[item]) ? token[item] : [token[item]];
+          items.forEach((definition: string) => {
+            fileIcons[item][definition] = iconTokenName;
+          });
+        });
         resolve(iconTokenName);
       });
     })
@@ -142,7 +144,7 @@ function merge (...items) {
 async function build () {
   const iconTheme = {};
   const icons = await buildIcons(24);
-  const fileIcons = await buildFileIcons(24, 11.91, 10.71, 6.02, 10.16);
+  const fileIcons = await buildFileIcons(24, 14, 12, 5, 10.05);
   merge(
     iconTheme, 
     icons,

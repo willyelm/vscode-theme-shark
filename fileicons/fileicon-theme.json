@@ -8,6 +8,21 @@
     },
     "Shark.File.Typescript": {
       "iconPath": "./images/24/File-Typescript.svg"
+    },
+    "Shark.File.Javascript": {
+      "iconPath": "./images/24/File-Javascript.svg"
+    },
+    "Shark.File.HTML": {
+      "iconPath": "./images/24/File-HTML.svg"
+    },
+    "Shark.File.Sass": {
+      "iconPath": "./images/24/File-Sass.svg"
+    },
+    "Shark.File.JSON": {
+      "iconPath": "./images/24/File-JSON.svg"
+    },
+    "Shark.File.Markdown": {
+      "iconPath": "./images/24/File-Markdown.svg"
     }
   },
   "rootFolder": "Shark.Folder",
@@ -16,10 +31,22 @@
   "folderExpanded": "Shark.Folder",
   "file": "Shark.File",
   "fileExtensions": {
-    "ts": "Shark.File.Typescript"
+    "ts": "Shark.File.Typescript",
+    "js": "Shark.File.Javascript",
+    "html": "Shark.File.HTML",
+    "scss": "Shark.File.Sass",
+    "sass": "Shark.File.Sass",
+    "json": "Shark.File.JSON",
+    "md": "Shark.File.Markdown"
   },
   "fileNames": {},
   "languageIds": {
-    "ts": "Shark.File.Typescript"
+    "ts": "Shark.File.Typescript",
+    "js": "Shark.File.Javascript",
+    "html": "Shark.File.HTML",
+    "scss": "Shark.File.Sass",
+    "sass": "Shark.File.Sass",
+    "json": "Shark.File.JSON",
+    "md": "Shark.File.Markdown"
   }
 }

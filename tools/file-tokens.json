@@ -1,8 +1,33 @@
 [
   {
     "definition": "Typescript",
-    "fileExtension": "ts",
-    "languageId": "ts",
-    "fileName": ""
+    "fileExtensions": "ts",
+    "languageIds": "ts",
+    "fileNames": ""
+  },
+  {
+    "definition": "Javascript",
+    "fileExtensions": "js",
+    "languageIds": "js"
+  },
+  {
+    "definition": "HTML",
+    "fileExtensions": "html",
+    "languageIds": "html"
+  },
+  {
+    "definition": "Sass",
+    "fileExtensions": ["scss", "sass"],
+    "languageIds": ["scss", "sass"]
+  },
+  {
+    "definition": "JSON",
+    "fileExtensions": "json",
+    "languageIds": "json"
+  },
+  {
+    "definition": "Markdown",
+    "fileExtensions": "md",
+    "languageIds": "md"
   }
 ]
