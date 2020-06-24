@@ -56,7 +56,7 @@
         "gitDecoration.conflictingResourceForeground": "#ff92e4",
 
         "terminal.foreground": "#F9FAFF",
-        "terminal.ansiBrightBlack": "#212225",
+        "terminal.ansiBrightBlack": "#7e7e7e",
         "terminal.ansiBrightCyan": "#9ce7fd",
         "terminal.ansiBrightGreen": "#c0e9c6",
         "terminal.ansiBrightMagenta": "#ff92e4",
